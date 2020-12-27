@@ -1,0 +1,136 @@
+\documentclass[11pt,a4paper]{moderncv}
+
+% moderncv themes
+%\moderncvtheme[blue]{casual}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+\moderncvtheme[blue]{casual}                % idem
+
+% character encoding
+\usepackage{ucs}
+\usepackage[utf8x]{inputenc}
+\usepackage[english,romanian]{babel}
+
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}						% if you want to change the width of the column with the dates
+%\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
+\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
+
+% personal data
+\firstname{Răzvan}
+\familyname{Deaconescu}
+
+\title{Curriculum Vitae}               % optional, remove the line if not wanted
+
+\address{Str. Peneș Curcanul nr. 14, Vitan Platinum Towers, Bl. A, Ap. 7, Et. 1}{Bucharest, sector 3, 031515, Romania}    % optional, remove the line if not wanted
+\mobile{+(40) 745957975}                    % optional, remove the line if not wanted
+%\phone{0212303514}                      % optional, remove the line if not wanted
+\email{razvan.deaconescu@upb.ro}                      % optional, remove the line if not wanted
+%\extrainfo{additional information (optional)} % optional, remove the line if not wanted
+%\photo[64pt]{picture}                         % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
+
+\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+
+\section{Education}
+
+\cventry{2007--2012}{PhD}{University POLITEHNICA of Bucharest, Faculty of Automatic Control and Computers}{Bucharest}{}{``Computers and Infomation Technology'' field\\Phd Thesis: ``Protocol Measurements and Improvements in Peer-to-Peer Systems''}
+\cventry{2006--2008}{Master of Science}{University POLITEHNICA of Bucharest, Faculty of Automatic Control and Computers}{Bucharest}{\textit{7.50}}{``Systems Software and Applications'' program\\Master Thesis: ``Peer-to-Peer Systems''}
+\cventry{2001--2006}{Bachelor of Science}{University POLITEHNICA of Bucharest, Faculty of Automatic Control and Computers}{Bucharest}{\textit{9.85}}{Computers, specialty program: C3 -- Systems Software\\Bachelor Thesis: ``Design and Implementation of an Improved Floating-point Adder Unit for FPGA''}
+\cventry{1997--2001}{Baccalaureate}{National College ``I. C.  Brătianu''}{Pitești}{\textit{9.78}}{``Mathematics-Physics'' track}
+
+\section{Experience}
+
+\subsection{Professional}
+
+\cventry{October 2019--present}{Associate Professor}{University POLITEHNICA of Bucharest}{Bucharest}{}{Education and research}
+\cventry{October 2012--september 2019}{Assistant Professor}{University POLITEHNICA of Bucharest}{Bucharest}{}{Education and research}
+\cventry{October 2006--September 2012}{Teaching Assistant}{University POLITEHNICA of Bucharest}{Bucharest}{}{Education and research}
+
+\subsection{Research Projects and Activities}
+
+\cventry{2019--2021}{Project director}{SASHA}{}{}{Project management}
+\cventry{2019--2021}{Researcher}{UNICORE}{}{}{Research and dissemination}
+\cventry{2018--2020}{Researcher}{ATLAS}{}{}{Research and dissemination}
+\cventry{2018--2020}{Researcher}{Lib2life}{}{}{Research and dissemination}
+\cventry{2018--2020}{Project director}{SABLO (NETIO)}{}{}{Project management}
+\cventry{2018--2019}{Project director}{Tracing Attacker Behavior Inside Virtual Machines (Keysight Research Grant \#7396)}{}{}{Project management}
+\cventry{2018--2019}{Project director}{Fuzzing IoT Devices (Keysight Research Grant \#7394)}{}{}{Project management}
+\cventry{2017--2018}{Project director}{GEX}{}{}{Project management, research and dissemination}
+\cventry{2016--2017}{Long-term expert}{CSAPCS}{}{}{Development and maintenance of project platform \url{http://www.learningpark.ro}}
+\cventry{2010--2011}{Researcher}{GEEA (POS-CCE)}{}{}{Research and dissemination}
+\cventry{2008--2011}{Researcher}{EU-FP7 P2P-Next}{}{}{Research and dissemination}
+\cventry{2007--2008}{Member}{EU-NCIT}{}{}{Dissemination}
+
+\subsection{Awards}
+
+\cventry{2015}{Best Paper Award}{ASIA CCS, Proceedings of the 10th ACM Symposium on Information, Computer and Communications Security}{}{}{\textit{XiOS: Extended Application Sandboxing on iOS}}
+\cventry{2009}{Best Paper Award}{Proceedings of Fifth International Conference of Networking and Services}{}{}{\textit{A BitTorrent Performance Evaluation Framework}}
+
+\subsection{Community Projects and Activities}
+
+\cventry{2005--prezent}{Software Support Team Leader}{ACM ICPC - SEERC}{Bucharest}{}{Manage software support team}
+\cventry{2006--prezent}{Collaborator}{Ixia - A Keysight Business}{Bucharest}{}{Supervise student projects\\Organize community events}
+\cventry{2007--prezent}{Supervisor}{Comunitatea/Asociația ROSEdu}{Bucharest}{}{Organize events and supervise projects on open source topics}
+\cventry{2012--prezent}{Instructor}{Neo Networking S.R.L.}{Bucharest}{}{Training on operating systems-related topics: Linux, Windows, kernel development, memory management, threading, security}
+\cventry{2014--prezent}{Supervisor}{Security Summer School}{Bucharest}{}{Summer school on practical security for students (\url{https://security.cs.pub.ro/summer-school/wiki/})}
+\cventry{2014--prezent}{Vicepresident}{Concursul Național ,,InfoEducație''}{Gălăciuc, Vrancea}{}{Project contest for high-school students}
+\cventry{2015--prezent}{Local supervisor}{Malus Security}{}{}{iOS security projects (\url{https://github.com/malus-security/})}
+\cventry{2016--prezent}{Supervisor}{D Foundation}{Bucharest}{}{Supervise research and development projects using the D language}
+\cventry{2018--prezent}{Collaboration supervisor}{Amazon Romania}{Bucharest}{}{Mediate interaction with university and students}
+\cventry{2016--2018}{Supervisor}{OWASP AppSec Bucharest Conference CTF}{Bucharest}{}{Security contest for students (\url{https://owasp-ctf.security.cs.pub.ro})}
+\cventry{vară 2007}{Supervisor}{``Knowledge-Based Economy''}{Brașov}{}{Supervise instructors\\Write technical documentation for participants}
+\cventry{2008--2015}{LPIC Instructor}{Academia Cisco}{Bucharest}{}{Content development, traning, exams}
+\cventry{2012--2015}{Director of Education}{Programul Digital Kids}{Bucharest}{}{Team coordinatio\\Content development}
+\cventry{2008--2014}{Promoter}{``Stagii pe Bune'' internship program}{Bucharest}{}{Dissemination}
+\cventry{vară 2008}{Supervisor}{Orange Romania}{Bucharest}{}{Supervise student internship projects}
+\cventry{2010--2016}{Supervisor}{VirtualMetrix Design S.R.L.}{Bucharest}{}{Supervise student and research projects}
+
+\subsection{Topics of Interest}
+
+\cvline{Operating Systems}{\small Research and development. Systems software}
+\cvline{Security}{\small Research iOS security. Reverse engineering. Take part and organize CTF (\textit{Capture the Flag}) contests}
+\cvline{Education}{\small Content development. Talks. Trainings. Mentorship}
+\cvline{Open Source}{\small Community management. Software projects}
+
+\renewcommand{\listitemsymbol}{-} % change the symbol for lists
+
+\section{Abilities}
+
+\subsection{Foreign Languages}
+
+\cvlanguage{English}{Excellent}{Linguistic Abilities Certificate -- September 2003}
+
+\subsection{Organizational Abilities}
+
+\cvlistitem{Organize events in the ROSEdu community and open source communities}
+\cvlistitem{Organize community events in the Faculty of Automatic Control and Computers}
+\cvlistitem{Organize student contests}
+\cvlistitem{Talks in technical and community events}
+\cvlistitem{Supervise teaching and research teams}
+\cvlistitem{Disseminate community events (talks, projects, group activities)}
+
+\subsection{Technical Abilities}
+
+\cvcomputer{Programming Languages}{C, Shell scripting, Python, Assembly, Java}{Technical Skills}{low-level programming, reverse engineering, binary analysis}
+\cvcomputer{Operating Systems}{Linux, macOS, iOS, Windows}{Tools and Applications}{maintenance, development, wikis, collaborative apps, version control systems}
+\cvcomputer{Documents}{\LaTeX, OpenOffice, Microsoft Office}{Networking}{web, LDAP, DNS, e-mail, NFS, SSH, FTP, DHCP}
+
+%\newpage
+%
+%\renewcommand\refname{Publications}
+%\renewcommand\bibname{Publications}
+%
+%\nocite{*}
+%\bibliographystyle{plain}
+%\bibliography{../publications/publications}
+
+\end{document}

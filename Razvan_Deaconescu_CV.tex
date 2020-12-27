@@ -1,0 +1,137 @@
+\documentclass[11pt,a4paper]{moderncv}
+
+% moderncv themes
+%\moderncvtheme[blue]{casual}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+\moderncvtheme[blue]{casual}                % idem
+
+% character encoding
+\usepackage{ucs}
+\usepackage[utf8x]{inputenc}
+\usepackage[english,romanian]{babel}
+
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}						% if you want to change the width of the column with the dates
+%\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
+\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
+
+% personal data
+\firstname{Răzvan}
+\familyname{Deaconescu}
+
+\title{Curriculum Vitae}               % optional, remove the line if not wanted
+
+\address{Str. Peneș Curcanul nr. 14, Vitan Platinum Towers, Bl. A, Ap. 7, Et. 1}{București, sector 3, 031515}    % optional, remove the line if not wanted
+\mobile{+(40) 745957975}                    % optional, remove the line if not wanted
+%\phone{0212303514}                      % optional, remove the line if not wanted
+\email{razvan.deaconescu@upb.ro}                      % optional, remove the line if not wanted
+%\extrainfo{additional information (optional)} % optional, remove the line if not wanted
+%\photo[64pt]{picture}                         % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
+
+\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+
+\section{Educație}
+
+\cventry{2007--2012}{Doctor}{Universitatea POLITEHNICA din București, Facultatea de Automatică și Calculatoare}{București}{}{Domeniul ,,Sisteme Peer-to-Peer''\\Teză de doctorat: ,,Evaluarea și îmbunătățirea protocoalelor în sisteme Peer-to-Peer''}
+\cventry{2006--2008}{Master}{Universitatea POLITEHNICA din București, Facultatea de Automatică și Calculatoare}{București}{\textit{7.50}}{Specializarea ,,Sisteme de Programe de Bază și Aplicații''\\Lucrare de disertație: ,,Sisteme Peer-to-Peer''}
+\cventry{2001--2006}{Inginer}{Universitatea POLITEHNICA din București, Facultatea de Automatică și Calculatoare}{București}{\textit{9.85}}{Specializarea Calculatoare, programul de specialitate C3 -- Sisteme de Programe de Bază\\Proiect de diplomă: ,,Proiectarea și implementarea unei unități de adunare în virgulă mobilă pentru FPGA''}
+\cventry{1997--2001}{Bacalaureat}{Colegiul Național ,,I. C.  Brătianu''}{Pitești}{\textit{9.78}}{Specializarea Matematică-Informatică}
+
+\section{Experiență}
+
+\subsection{Profesional}
+
+\cventry{octombrie 2019--prezent}{Conferențiar}{Universitatea POLITEHNICA din București}{București}{}{Activități didactice și de cercetare}
+\cventry{octombrie 2012--septembrie 2019}{Șef de lucrări}{Universitatea POLITEHNICA din București}{București}{}{Activități didactice și de cercetare}
+\cventry{octombrie 2006--septembrie 2012}{Asistent universitar}{Universitatea POLITEHNICA din București}{București}{}{Activități didactice și de cercetare}
+
+\subsection{Proiecte și activități științifice}
+
+\cventry{2020--2022}{Director de proiect}{SASHA}{}{}{Management de proiect}
+\cventry{2019--2021}{Cercetător}{UNICORE}{}{}{Cercetare și diseminare}
+\cventry{2018--2020}{Cercetător}{ATLAS}{}{}{Cercetare și diseminare}
+\cventry{2018--2020}{Cercetător}{Lib2life}{}{}{Cercetare și diseminare}
+\cventry{2018--2019}{Director de proiect}{Tracing Attacker Behavior Inside Virtual Machines (Keysight Research Grant \#7396)}{}{}{Management de proiect}
+\cventry{2018--2019}{Director de proiect}{Fuzzing IoT Devices (Keysight Research Grant \#7394)}{}{}{Management de proiect}
+\cventry{2018--2020}{Director de proiect}{SABLO (NETIO)}{}{}{Management de proiect}
+\cventry{2017--2018}{Director de proiect}{GEX}{}{}{Management de proiect, cercetare și diseminare}
+\cventry{2016--2017}{Expert pe termen lung}{Proiectul CSAPCS: Competențe științifice și abilități practice pentru o carieră de succes}{}{}{Dezvoltarea și administrarea platformei \url{http://www.learningpark.ro}}
+\cventry{2010--2011}{Cercetător}{Proiectul GEEA (POS-CCE)}{}{}{Cercetare și diseminare}
+\cventry{2008--2011}{Cercetător}{Proiectul EU-FP7 P2P-Next}{}{}{Cercetare și diseminare în sistemele Peer-to-Peer}
+\cventry{2007--2008}{Membru}{Proiectul EU-NCIT}{}{}{Activități de diseminare}
+
+\subsection{Premii}
+
+\cventry{2015}{Best Paper Award}{ASIA CCS, Proceedings of the 10th ACM Symposium on Information, Computer and Communications Security}{}{}{Articolul \textit{XiOS: Extended Application Sandboxing on iOS}}
+\cventry{2009}{Best Paper Award}{Proceedings of Fifth International Conference of Networking and Services}{}{}{Articolul \textit{A BitTorrent Performance Evaluation Framework}}
+
+\subsection{Alte proiecte și activități}
+
+\cventry{2005--prezent}{Coordonator echipă de suport software}{ACM ICPC - SEERC}{București}{}{Organizarea echipei de suport software}
+\cventry{2006--prezent}{Colaborator}{Ixia - A Keysight Business}{București}{}{Coordonare de proiecte de diplomă\\Organizare și promovare activități și evenimente}
+\cventry{2007--prezent}{Coordonator / Contributor}{Comunitatea / Asociația ROSEdu}{București}{}{Coordonare proiecte și activități în domeniul tehnologiilor open-source}
+\cventry{2012--prezent}{Instructor}{Neo Networking S.R.L.}{București}{}{Training pe subiecte de sisteme de operare: mediul Linux, shell scripting, kernel development, memory management, threading, securitate}
+\cventry{2014--prezent}{Coordonator}{Security Summer School}{București}{}{Școală de vară de securitate aplicată pentru studenți (\url{https://security.cs.pub.ro/summer-school/wiki/})}
+\cventry{2014--prezent}{Vicepreședinte}{Concursul Național ,,InfoEducație''}{Gălăciuc, Vrancea}{}{Concurs de proiecte pentru elevi}
+\cventry{2015--prezent}{Coordonator local}{Malus Security}{}{}{Proiecte de securitate pe platforme Apple iOS (\url{https://github.com/malus-security/})}
+\cventry{2016--prezent}{Coordonator}{Fundația D}{București}{}{Coordonarea proiectelor de dezvoltare și cercetare în jurul limbajului D}
+\cventry{2018--prezent}{Coordonator colaborare}{Amazon România}{București}{}{Medierea interacțiunii cu universitatea și cu studenții}
+\cventry{2016--2018}{Coordonator}{OWASP AppSec Bucharest Conference CTF}{București}{}{Concurs de securitate pentru studenți (\url{https://owasp-ctf.security.cs.pub.ro})}
+\cventry{vară 2007}{Coordonator}{Proiectul ,,Knowledge-Based Economy''}{Brașov}{}{Dezvoltare materiale de studiu//Coordonare instructori}
+\cventry{2008--2015}{Instructor LPIC}{Academia Cisco / ROSEdu}{București}{}{Dezvoltare conținut, susținut prezentări și ore de aplicații}
+\cventry{2012--2015}{Director educațional}{Programul Digital Kids}{București}{}{Coordonare echipă, coordonare dezvoltare de conținut}
+\cventry{2008--2014}{Promotor}{Programul Stagii pe Bune}{București}{}{Activități de promovare și diseminare}
+\cventry{vară 2008}{Coordonator}{Orange Romania}{București}{}{Coordonare de stagii de vară}
+\cventry{2010--2016}{Coordonator}{VirtualMetrix Design S.R.L.}{București}{}{Coordonare proiecte de diplomă, de master și de cercetare}
+
+\subsection{Domenii de interes}
+
+\cvline{Sisteme de operare}{\small Dezvoltare și cercetare. Aplicații de nivel scăzut și la nivelul nucleului}
+\cvline{Securitate}{\small Cercetare și expertiză în securitatea Apple iOS. Reverse engineering. Participare și organizare de competiții de tip CTF (\textit{Capture the Flag})}
+\cvline{Educație}{\small Pregătirea de materiale de studiu. Prezentări. Training. Mentorat}
+\cvline{Comunități și proiecte open-source}{\small Susținerea comunităților open-source. Dezvoltarea de proiecte}
+
+\renewcommand{\listitemsymbol}{-} % change the symbol for lists
+
+\section{Competențe}
+
+\subsection{Limbi străine}
+
+\cvlanguage{Engleză}{Excelent}{Certificat de competență lingvistică -- Septembrie 2003}
+
+\subsection{Abilități organizatorice și sociale}
+
+\cvlistitem{Organizare evenimente în cadrul comunității ROSEdu și a comunităților open-source}
+\cvlistitem{Organizare evenimente de grup în cadrul Facultății de Automatică și Calculatoare}
+\cvlistitem{Organizare concursuri studențești}
+\cvlistitem{Participare și coordonare de activități colaborative}
+\cvlistitem{Susținere de prezentări și discursuri la evenimente cu profil tehnic}
+\cvlistitem{Coordonare echipe de lucru în activități didactice și de cercetare}
+\cvlistitem{Susținere și promovare evenimente (prezentări, proiecte, activități de grup)}
+
+\subsection{Abilități tehnice}
+
+\cvcomputer{Limbaje de programare}{C, Shell scripting, Python, Assembly, Java}{Competențe}{Dezvoltarea de componente low-level, reverse engineering, binary analysis}
+\cvcomputer{Sisteme de operare}{Linux, macOS, iOS, Windows}{Aplicații}{administrare, dezvoltare, wiki, blog, aplicații colaborative, sisteme de control al versiunii}
+\cvcomputer{Prelucrarea documentelor}{\LaTeX, OpenOffice, Microsoft Office}{Servicii de rețea}{web, LDAP, DNS, e-mail, NFS, SSH, FTP, DHCP}
+
+%\newpage
+%
+%\renewcommand\refname{Publicații}
+%\renewcommand\bibname{Publicații}
+%
+%\nocite{*}
+%\bibliographystyle{plain}
+%\bibliography{../publications/publications}
+
+\end{document}
